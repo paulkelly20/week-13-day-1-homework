@@ -1,10 +1,11 @@
 const express = require('express');
 const router = new express.Router();
-const Films = require("../models/films.js")
 
-const films = Films()
+router.use('/films', require('./films.js'));
+
 router.get('/', function(req, res){
-  res.json({films})
+  res.json("Hello")
 });
+
 
 module.exports = router;

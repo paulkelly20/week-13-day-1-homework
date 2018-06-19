@@ -8,7 +8,7 @@ Based on the starter code:
 Create an api for the films app using an /api/films restful route pattern and Express Router
 
 - Index route to show all films
-- Get film by id (id is just an array index fo rnow, until we hook up a database)
+- Get film by id (id is just an array index for now, until we hook up a database)
 - Create film
 - Update film
 - Delete film
